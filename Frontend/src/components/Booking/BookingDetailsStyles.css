@@ -1,0 +1,69 @@
+.booking-details-container {
+    max-width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 2rem;
+    margin-bottom: 6rem;
+    background-color: #fff;
+    background-image: url('../../assets/bglogin.jpg');
+
+  }
+  
+  .booking-details-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .booking-details {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; /* Align items to the end of the container */
+  }
+  
+  .booking-details p {
+    font-size: large;
+    margin: 5px 0;
+    color: #555;
+    width: 100%;
+    text-align: left; /* Align text to the right */
+    margin-left: 20rem;
+  }
+  
+  
+  .booking-details p strong {
+    margin-right: 10px;
+    color: #000;
+  }
+  
+  .booking-confirmed {
+    color: green;
+    animation: blink-animation 1s infinite alternate;
+  }
+  
+  @keyframes blink-animation {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  /* Responsive adjustments */
+  @media screen and (max-width: 768px) {
+    .booking-details-container {
+      max-width: 80%;
+      margin-top: 5rem;
+      margin-bottom: 3rem;
+      margin-top: 9rem;
+    }
+  
+    .booking-details-container h2 {
+      font-size: 20px;
+    }
+  }
+  

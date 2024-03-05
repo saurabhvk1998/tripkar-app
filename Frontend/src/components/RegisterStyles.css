@@ -1,0 +1,57 @@
+/* RegisterStyles.css */
+
+/* Base styles */
+.register {
+  margin: 8rem 18rem;
+  color: #2a2a2a;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, .25); /* Add box shadow */
+  background-image: url('../assets/bglogin.jpg'); /* Replace 'path_to_your_image.jpg' with the actual path to your image */
+  background-size: cover; /* Ensure the background image covers the entire element */
+  background-repeat: no-repeat; /* Prevent the background image from repeating */
+  background-position: center; /* Center the background image */
+}
+
+.register form {
+  padding-top: 3rem;
+  width: 50%;
+  margin: auto;
+}
+
+.register input,
+.register textarea {
+  height: 3rem;
+  padding: 0 1rem;
+  margin-bottom: 2rem;
+  border-radius: .3rem;
+  border: 1px solid #2a2a2a;
+}
+
+.register button {
+  display: inline;
+}
+
+.label{
+  font-weight: bold;
+  font-style: italic;
+
+}
+
+.error{
+  color: red;
+}
+
+.name{
+  margin-left: 100px;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 850px) {
+  .register {
+    margin: 8rem 2rem;
+  }
+
+  .register form {
+    padding-top: 2rem;
+    width: 90%;
+  }
+}

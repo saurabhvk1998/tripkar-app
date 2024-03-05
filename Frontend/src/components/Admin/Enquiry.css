@@ -1,0 +1,149 @@
+/* Styles for the main container */
+.enquiry-container-admin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('../../assets/admin-page-form.jpg');
+    margin:  4rem 10rem;
+    /* border: 1px solid; */
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Styles for headings */
+  .enquiry-heading-admin {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Styles for buttons */
+  .enquiry-button-container-admin {
+    margin-bottom: 20px;
+  }
+  
+  .enquiry-button-like-link-admin {
+    display: inline-block;
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .enquiry-button-like-link-admin:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  .deleteButton-enquiry{
+    display: inline-block;
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .deleteButton-enquiry:hover{
+    background-color: darkred;
+    color: white;
+  }
+  
+  /* Styles for dropdown menu */
+  .enquiry-dropdown-container-admin {
+    margin-bottom: 20px;
+  }
+  
+  /* Styles for table */
+  .enquiry-table-container-admin {
+    overflow-x: auto; /* Add horizontal scroll if needed */
+    background-color: white;
+  }
+  
+  .enquiry-table-admin {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .enquiry-table-admin th, .enquiry-table-admin td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .enquiry-table-admin th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  /* Styles for scroll to top link */
+  .enquiry-scroll-to-top-link-admin {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .enquiry-scroll-to-top-link-admin:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Media queries for responsive design */
+  @media only screen and (max-width: 768px) {
+    .enquiry-container-admin {
+      padding: 10px;
+    }
+  
+    .enquiry-heading-admin {
+      font-size: 20px;
+    }
+  
+    .enquiry-button-like-link-admin {
+      padding: 8px 16px;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .enquiry-container-admin {
+      padding: 5px;
+    }
+  
+    .enquiry-heading-admin {
+      font-size: 18px;
+    }
+  
+    .enquiry-button-like-link-admin {
+      padding: 6px 12px;
+    }
+  }
+  
+  .success-message-enquiry{
+    position: fixed;
+    bottom: 65px;
+    right: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    background-color: green;
+  }
+  
+  .error-message-enquiry{
+    position: fixed;
+    bottom: 65px;
+    right: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    background-color: red;
+  }

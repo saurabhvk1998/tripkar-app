@@ -1,0 +1,63 @@
+/* LoginFormStyles.css */
+
+/* Base styles */
+.custom-login {
+  margin: 8rem auto;
+  color: #2a2a2a;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, .25); /* Add box shadow */
+  background-image: url('../assets/bglogin.jpg'); /* Replace 'path_to_your_image.jpg' with the actual path to your image */
+  background-size: cover; /* Ensure the background image covers the entire element */
+  background-repeat: no-repeat; /* Prevent the background image from repeating */
+  background-position: center; /* Center the background image */
+  width: 50%;
+  padding: 2rem;
+  text-align: center;
+}
+
+.custom-login form {
+  display: inline-block;
+  width: 50%;
+}
+
+.custom-login input {
+  height: 3rem;
+  padding: 0 1rem;
+  margin-bottom: 1rem;
+  border-radius: .3rem;
+  border: 1px solid #2a2a2a;
+  width: calc(100% - 2rem); /* Subtract padding from width */
+}
+
+.custom-login button {
+  height: 2rem;
+  padding: 0 1rem;
+  border-radius: .3rem;
+  border: none;
+  background-color: white; /* Change button color to white */
+  color: #2a2a2a; /* Change text color to black */
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s; /* Add transition for smooth color change */
+}
+
+.custom-login button:hover {
+  background-color: #2a2a2a; /* Change background color to black on hover */
+  color: white; /* Change text color to white on hover */
+}
+
+.error {
+  color: red;
+  margin-top: 0.5rem;
+  display: block;
+}
+
+.div {
+  margin-top: 1rem;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .custom-login {
+    margin: 8rem auto;
+    width:90%;
+}
+}
